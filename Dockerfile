@@ -1,5 +1,5 @@
 FROM python:latest
-EXPOSE 5000
+EXPOSE 8080
 RUN useradd -m myapp
 ADD . /home/myapp
 WORKDIR /home/myapp
